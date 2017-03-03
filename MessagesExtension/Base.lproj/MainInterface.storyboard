@@ -33,6 +33,9 @@
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vms-0J-nXK">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="53"/>
+                                        <connections>
+                                            <action selector="handleChocoholicChanged:" destination="ObA-dk-sSI" eventType="valueChanged" id="Oo7-A3-TRJ"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocoholic Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05k-Kr-nbU">
                                         <rect key="frame" x="54" y="0.0" width="134" height="53"/>
