@@ -26,6 +26,9 @@
 		57DFCD111E69E6F9001BEC8E /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD051E69E6F9001BEC8E /* Orange.png */; };
 		57DFCD121E69E6F9001BEC8E /* Pineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD061E69E6F9001BEC8E /* Pineapple.png */; };
 		57DFCD131E69E6F9001BEC8E /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD071E69E6F9001BEC8E /* Strawberry.png */; };
+		57DFCD171E6A1FAC001BEC8E /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFCD161E6A1FAC001BEC8E /* StickerCollectionViewCell.swift */; };
+		57DFCD191E6A1FF0001BEC8E /* StickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFCD181E6A1FF0001BEC8E /* StickerCollectionViewController.swift */; };
+		57DFCD1B1E6A26CE001BEC8E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFCD1A1E6A26CE001BEC8E /* SectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		57DFCD051E69E6F9001BEC8E /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
 		57DFCD061E69E6F9001BEC8E /* Pineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pineapple.png; sourceTree = "<group>"; };
 		57DFCD071E69E6F9001BEC8E /* Strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberry.png; sourceTree = "<group>"; };
+		57DFCD161E6A1FAC001BEC8E /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		57DFCD181E6A1FF0001BEC8E /* StickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewController.swift; sourceTree = "<group>"; };
+		57DFCD1A1E6A26CE001BEC8E /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 				57DFCCFB1E69E6D4001BEC8E /* snacks */,
 				57DFCCE81E69DAF8001BEC8E /* MessagesViewController.swift */,
 				57DFCCF91E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift */,
+				57DFCD1A1E6A26CE001BEC8E /* SectionHeader.swift */,
+				57DFCD161E6A1FAC001BEC8E /* StickerCollectionViewCell.swift */,
+				57DFCD181E6A1FF0001BEC8E /* StickerCollectionViewController.swift */,
 				57DFCCEA1E69DAF8001BEC8E /* MainInterface.storyboard */,
 				57DFCCED1E69DAF8001BEC8E /* Assets.xcassets */,
 				57DFCCEF1E69DAF8001BEC8E /* Info.plist */,
@@ -272,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DFCD191E6A1FF0001BEC8E /* StickerCollectionViewController.swift in Sources */,
 				57DFCCE91E69DAF8001BEC8E /* MessagesViewController.swift in Sources */,
+				57DFCD1B1E6A26CE001BEC8E /* SectionHeader.swift in Sources */,
+				57DFCD171E6A1FAC001BEC8E /* StickerCollectionViewCell.swift in Sources */,
 				57DFCCFA1E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

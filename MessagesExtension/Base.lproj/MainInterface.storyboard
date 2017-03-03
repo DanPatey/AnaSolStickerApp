@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--Sticker Collection View Controller-->
         <scene sceneID="VHT-Bj-fwV">
             <objects>
-                <collectionViewController id="COL-fP-Sqv" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="a3C-W0-YvI">
+                <collectionViewController id="COL-fP-Sqv" customClass="StickerCollectionViewController" customModule="MessagesExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="a3C-W0-YvI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -25,14 +25,14 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ll8-Lc-qnS">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StickerCollectionViewCell" id="ll8-Lc-qnS" customClass="StickerCollectionViewCell" customModule="MessagesExtension" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="25" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L92-l1-7wD" customClass="MSStickerView">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L92-l1-7wD">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
@@ -44,9 +44,12 @@
                                     <constraint firstAttribute="bottom" secondItem="L92-l1-7wD" secondAttribute="bottom" id="9IF-y9-13P"/>
                                     <constraint firstAttribute="trailing" secondItem="L92-l1-7wD" secondAttribute="trailing" id="rB5-NS-ztm"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="stickerView" destination="L92-l1-7wD" id="kSR-fI-dhx"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="j5s-qc-t5L">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SectionHeader" id="j5s-qc-t5L" customClass="SectionHeader">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
@@ -72,6 +75,9 @@
                                 <constraint firstAttribute="bottom" secondItem="F8D-PO-EYV" secondAttribute="bottom" id="Wnc-QC-9ZE"/>
                                 <constraint firstItem="F8D-PO-EYV" firstAttribute="leading" secondItem="j5s-qc-t5L" secondAttribute="leading" id="yB7-kd-kff"/>
                             </constraints>
+                            <connections>
+                                <outlet property="label" destination="NtX-XW-eBK" id="LuN-Qo-kui"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="COL-fP-Sqv" id="tuT-ww-xdM"/>
