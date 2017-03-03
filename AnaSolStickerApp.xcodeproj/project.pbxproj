@@ -13,6 +13,19 @@
 		57DFCCE91E69DAF8001BEC8E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFCCE81E69DAF8001BEC8E /* MessagesViewController.swift */; };
 		57DFCCEC1E69DAF8001BEC8E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCEA1E69DAF8001BEC8E /* MainInterface.storyboard */; };
 		57DFCCEE1E69DAF8001BEC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCED1E69DAF8001BEC8E /* Assets.xcassets */; };
+		57DFCCFA1E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFCCF91E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift */; };
+		57DFCD081E69E6F9001BEC8E /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCFC1E69E6F9001BEC8E /* Banana.png */; };
+		57DFCD091E69E6F9001BEC8E /* ChocolateBanana.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCFD1E69E6F9001BEC8E /* ChocolateBanana.png */; };
+		57DFCD0A1E69E6F9001BEC8E /* ChocolateMelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCFE1E69E6F9001BEC8E /* ChocolateMelon.png */; };
+		57DFCD0B1E69E6F9001BEC8E /* ChocolatePineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCCFF1E69E6F9001BEC8E /* ChocolatePineapple.png */; };
+		57DFCD0C1E69E6F9001BEC8E /* ChocolateStrawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD001E69E6F9001BEC8E /* ChocolateStrawberry.png */; };
+		57DFCD0D1E69E6F9001BEC8E /* Ginger.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD011E69E6F9001BEC8E /* Ginger.png */; };
+		57DFCD0E1E69E6F9001BEC8E /* Kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD021E69E6F9001BEC8E /* Kiwi.png */; };
+		57DFCD0F1E69E6F9001BEC8E /* Lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD031E69E6F9001BEC8E /* Lemon.png */; };
+		57DFCD101E69E6F9001BEC8E /* Melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD041E69E6F9001BEC8E /* Melon.png */; };
+		57DFCD111E69E6F9001BEC8E /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD051E69E6F9001BEC8E /* Orange.png */; };
+		57DFCD121E69E6F9001BEC8E /* Pineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD061E69E6F9001BEC8E /* Pineapple.png */; };
+		57DFCD131E69E6F9001BEC8E /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DFCD071E69E6F9001BEC8E /* Strawberry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		57DFCCEB1E69DAF8001BEC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		57DFCCED1E69DAF8001BEC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57DFCCEF1E69DAF8001BEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DFCCF91E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaSolStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		57DFCCFC1E69E6F9001BEC8E /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		57DFCCFD1E69E6F9001BEC8E /* ChocolateBanana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateBanana.png; sourceTree = "<group>"; };
+		57DFCCFE1E69E6F9001BEC8E /* ChocolateMelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateMelon.png; sourceTree = "<group>"; };
+		57DFCCFF1E69E6F9001BEC8E /* ChocolatePineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolatePineapple.png; sourceTree = "<group>"; };
+		57DFCD001E69E6F9001BEC8E /* ChocolateStrawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateStrawberry.png; sourceTree = "<group>"; };
+		57DFCD011E69E6F9001BEC8E /* Ginger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ginger.png; sourceTree = "<group>"; };
+		57DFCD021E69E6F9001BEC8E /* Kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kiwi.png; sourceTree = "<group>"; };
+		57DFCD031E69E6F9001BEC8E /* Lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lemon.png; sourceTree = "<group>"; };
+		57DFCD041E69E6F9001BEC8E /* Melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Melon.png; sourceTree = "<group>"; };
+		57DFCD051E69E6F9001BEC8E /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		57DFCD061E69E6F9001BEC8E /* Pineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pineapple.png; sourceTree = "<group>"; };
+		57DFCD071E69E6F9001BEC8E /* Strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +128,33 @@
 		57DFCCE71E69DAF8001BEC8E /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				57DFCCFB1E69E6D4001BEC8E /* snacks */,
 				57DFCCE81E69DAF8001BEC8E /* MessagesViewController.swift */,
+				57DFCCF91E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift */,
 				57DFCCEA1E69DAF8001BEC8E /* MainInterface.storyboard */,
 				57DFCCED1E69DAF8001BEC8E /* Assets.xcassets */,
 				57DFCCEF1E69DAF8001BEC8E /* Info.plist */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		57DFCCFB1E69E6D4001BEC8E /* snacks */ = {
+			isa = PBXGroup;
+			children = (
+				57DFCCFC1E69E6F9001BEC8E /* Banana.png */,
+				57DFCCFD1E69E6F9001BEC8E /* ChocolateBanana.png */,
+				57DFCCFE1E69E6F9001BEC8E /* ChocolateMelon.png */,
+				57DFCCFF1E69E6F9001BEC8E /* ChocolatePineapple.png */,
+				57DFCD001E69E6F9001BEC8E /* ChocolateStrawberry.png */,
+				57DFCD011E69E6F9001BEC8E /* Ginger.png */,
+				57DFCD021E69E6F9001BEC8E /* Kiwi.png */,
+				57DFCD031E69E6F9001BEC8E /* Lemon.png */,
+				57DFCD041E69E6F9001BEC8E /* Melon.png */,
+				57DFCD051E69E6F9001BEC8E /* Orange.png */,
+				57DFCD061E69E6F9001BEC8E /* Pineapple.png */,
+				57DFCD071E69E6F9001BEC8E /* Strawberry.png */,
+			);
+			name = snacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +248,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DFCD0E1E69E6F9001BEC8E /* Kiwi.png in Resources */,
+				57DFCD0A1E69E6F9001BEC8E /* ChocolateMelon.png in Resources */,
+				57DFCD0D1E69E6F9001BEC8E /* Ginger.png in Resources */,
 				57DFCCEE1E69DAF8001BEC8E /* Assets.xcassets in Resources */,
+				57DFCD091E69E6F9001BEC8E /* ChocolateBanana.png in Resources */,
+				57DFCD111E69E6F9001BEC8E /* Orange.png in Resources */,
+				57DFCD0B1E69E6F9001BEC8E /* ChocolatePineapple.png in Resources */,
 				57DFCCEC1E69DAF8001BEC8E /* MainInterface.storyboard in Resources */,
+				57DFCD131E69E6F9001BEC8E /* Strawberry.png in Resources */,
+				57DFCD0C1E69E6F9001BEC8E /* ChocolateStrawberry.png in Resources */,
+				57DFCD121E69E6F9001BEC8E /* Pineapple.png in Resources */,
+				57DFCD101E69E6F9001BEC8E /* Melon.png in Resources */,
+				57DFCD081E69E6F9001BEC8E /* Banana.png in Resources */,
+				57DFCD0F1E69E6F9001BEC8E /* Lemon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57DFCCE91E69DAF8001BEC8E /* MessagesViewController.swift in Sources */,
+				57DFCCFA1E69E24C001BEC8E /* AnaSolStickerBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
