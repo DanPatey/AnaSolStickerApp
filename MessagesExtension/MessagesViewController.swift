@@ -10,5 +10,5 @@ import UIKit
 import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
-    
+
 }
