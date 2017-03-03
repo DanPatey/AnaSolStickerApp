@@ -30,8 +30,10 @@ extension AnaSolStickerBrowserViewController {
         stickers = stickerNames.filter( { name in
             return chocoholic ? name.contains("Chocolate") : true
         }).map({ name in
-            let url = Bundle.main.url(forResource: name, withExtension: "png")!
-            return try! MSSticker(contentsOfFileURL: url, localizedDescription: name)
+            let url = Bundle.main.url(forResource: name,
+                                      withExtension: "png")!
+            return try! MSSticker(contentsOfFileURL: url,
+                                  localizedDescription: name)
         })
     }
 }

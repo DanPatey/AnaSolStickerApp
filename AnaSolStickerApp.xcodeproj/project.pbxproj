@@ -465,6 +465,7 @@
 				57DFCCF41E69DAF8001BEC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57DFCCF61E69DAF8001BEC8E /* Build configuration list for PBXNativeTarget "AnaSolStickerApp" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				57DFCCF81E69DAF8001BEC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
