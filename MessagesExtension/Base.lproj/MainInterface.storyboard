@@ -87,7 +87,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0y4-5p-fMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182.40000000000001" y="89.505247376311857"/>
+            <point key="canvasLocation" x="138" y="149"/>
         </scene>
         <!--Messages View Controller-->
         <scene sceneID="7MM-of-jgj">
